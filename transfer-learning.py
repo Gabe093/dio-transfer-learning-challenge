@@ -80,7 +80,7 @@ y_train = keras.utils.to_categorical(y_train, num_classes)
 y_val = keras.utils.to_categorical(y_val, num_classes)
 y_test = keras.utils.to_categorical(y_test, num_classes)
 
-print(f"Image uploading completed for {num_classes} categorias: {categories}.")
+print(f"Image uploading completed for {num_classes} categories: {categories}.")
 print(f"Training/validation/testing division: {len(x_train)}, {len(x_val)}, {len(x_test)}")
 print(f"Training data format (images): {x_train.shape}")
 print(f"Training label format: {y_train.shape}")
